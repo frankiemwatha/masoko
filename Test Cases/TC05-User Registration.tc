@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC04-User Registration</name>
+   <name>TC05-User Registration</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>987d920d-2cbe-4b98-824e-9164a3c8d8db</testCaseGuid>

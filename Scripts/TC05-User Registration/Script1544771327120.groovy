@@ -30,9 +30,9 @@ WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/inpu
 
 WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_lastname'), 'Masoko')
 
-WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_mobile'), '+254799320002')
+WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_mobile'), '+254799320005')
 
-WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_email'), 'masokotests4@safaricom.co.ke')
+WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_email'), 'masokotests5@safaricom.co.ke')
 
 WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_password'), '@12Mwatha00-')
 
