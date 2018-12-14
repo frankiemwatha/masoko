@@ -30,6 +30,8 @@ WebUI.setText(findTestObject('Invalid Log In/Page_Customer Login/input_loginuser
 
 WebUI.setText(findTestObject('Invalid Log In/Page_Customer Login/input_loginpassword'), '@12Mwatha00-')
 
+
+// this is a comment 
 WebUI.click(findTestObject('Invalid Log In/Page_Customer Login/button_Sign In'))
 
 WebUI.verifyElementPresent(findTestObject('Invalid Log In/Page_Customer Login/div_Invalid login or password.'), 0)

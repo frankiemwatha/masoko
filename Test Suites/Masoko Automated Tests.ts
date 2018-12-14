@@ -4,6 +4,7 @@
    <name>Masoko Automated Tests</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-12-14T10:46:18</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,7 +21,7 @@
       <guid>5f0aed22-409c-454e-82d5-7a973506558a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC04-User Registration</testCaseId>
+      <testCaseId>Test Cases/TC05-User Registration</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5785890e-695d-4cd7-921c-9b0af8b033db</guid>
