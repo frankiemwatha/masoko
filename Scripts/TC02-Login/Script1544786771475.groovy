@@ -36,5 +36,6 @@ WebUI.verifyElementPresent(findTestObject('Login/Page_Shop Online in Kenya - Pay
 
 
 //comment
+//comment
 WebUI.closeBrowser()
 
