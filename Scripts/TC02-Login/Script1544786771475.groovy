@@ -34,5 +34,7 @@ WebUI.click(findTestObject('Login/Page_Customer Login/button_Sign In'))
 
 WebUI.verifyElementPresent(findTestObject('Login/Page_Shop Online in Kenya - Pay Con/span_Hello Mwatha'), 0)
 
+
+//comment
 WebUI.closeBrowser()
 
