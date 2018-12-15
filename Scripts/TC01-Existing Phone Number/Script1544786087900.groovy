@@ -47,4 +47,5 @@ WebUI.click(findTestObject('Existing Phone Number/Page_Create New Customer Accou
 WebUI.verifyElementPresent(findTestObject('Existing Phone Number/Page_Create New Customer Account/div_User with such mobile numb'), 
     0)
 
+//comment
 WebUI.closeBrowser()
