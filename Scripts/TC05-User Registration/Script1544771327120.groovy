@@ -39,6 +39,6 @@ WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/inpu
 WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_password_confirmation'), '@12Mwatha00-')
 
 WebUI.click(findTestObject('Registration/Page_Create New Customer Account/span_Create an Account'))
-
+//comment
 WebUI.closeBrowser()
 
