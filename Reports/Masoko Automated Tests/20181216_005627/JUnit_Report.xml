@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Masoko Automated Tests" time="35" tests="1" failures="0" errors="0">
+   <testsuite name="Masoko Automated Tests" tests="1" failures="0" errors="0" time="35" timestamp="2018-12-16 00:56:39" hostname="FMBUGUA1 - LTTECH1950.safaricom.net" id="Test Suites/Masoko Automated Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\fmbugua1\\Desktop\\Folder\\test\\masoko\\Reports\\Masoko Automated Tests\\20181216_005627"/>
+         <property name="logFiles" value="C:\\Users\\fmbugua1\\Desktop\\Folder\\test\\masoko\\Reports\\Masoko Automated Tests\\20181216_005627\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="FMBUGUA1 - LTTECH1950.safaricom.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="169.254.12.217"/>
+         <property name="sessionId" value="e985209c2bf6a23f67cec138b9dc79b2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC02-Login" classname="Test Cases/TC02-Login" status="PASSED">
+         <system-out><![CDATA[2018-12-16 00:56:40 - [TEST_CASE][PASSED] - Test Cases/TC02-Login: Test Cases/TC02-Login
+
+2018-12-16 00:56:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-12-16 00:56:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-16 00:56:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.masoko.com' successfully
+
+2018-12-16 00:57:03 - [MESSAGE][PASSED] - Navigate to 'http://www.masoko.com' successfully
+
+2018-12-16 00:57:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-16 00:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-16 00:57:08 - [TEST_STEP][PASSED] - setText: Text 'mwathambugua@gmail.com' is set on object 'Object Repository/Login/Page_Customer Login/input_loginusername'
+
+2018-12-16 00:57:08 - [MESSAGE][PASSED] - Text 'mwathambugua@gmail.com' is set on object 'Object Repository/Login/Page_Customer Login/input_loginusername'
+
+2018-12-16 00:57:08 - [TEST_STEP][PASSED] - setText: Text '@12Becky00-' is set on object 'Object Repository/Login/Page_Customer Login/input_loginpassword'
+
+2018-12-16 00:57:08 - [MESSAGE][PASSED] - Text '@12Becky00-' is set on object 'Object Repository/Login/Page_Customer Login/input_loginpassword'
+
+2018-12-16 00:57:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-16 00:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-16 00:57:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login/Page_Shop Online in Kenya - Pay Con/span_Hello Mwatha' is present
+
+2018-12-16 00:57:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-16 00:57:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_Shop Online in Kenya - Pay Con/span_Hello Mwatha' is present
+
+2018-12-16 00:57:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-12-16 00:57:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-16 00:56:39 - [TEST_SUITE][PASSED] - Masoko Automated Tests: Test Cases/TC02-Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

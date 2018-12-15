@@ -22,13 +22,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.masoko.com/')
+WebUI.navigateToUrl(url)
 
 WebUI.click(findTestObject('Login/Page_Shop Online in Kenya - Pay Con/p_Sign In'))
 
-WebUI.setText(findTestObject('Login/Page_Customer Login/input_loginusername'), 'mwathambugua@gmail.com')
+WebUI.setText(findTestObject('Login/Page_Customer Login/input_loginusername'), email_address)
 
-WebUI.setText(findTestObject('Login/Page_Customer Login/input_loginpassword'), '@12Becky00-')
+WebUI.setText(findTestObject('Login/Page_Customer Login/input_loginpassword'), password)
 
 WebUI.click(findTestObject('Login/Page_Customer Login/button_Sign In'))
 

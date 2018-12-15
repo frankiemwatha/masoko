@@ -5,4 +5,53 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>987d920d-2cbe-4b98-824e-9164a3c8d8db</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4b8944c0-ea43-42f4-a50b-0a3ddd511e7b</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0dd38379-1092-491d-99f1-6d978b108de2</id>
+      <masked>false</masked>
+      <name>fname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>72cb48d7-53a1-468f-8a69-c847b6c2f666</id>
+      <masked>false</masked>
+      <name>lname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7c44aca0-6a53-4335-8d90-024502865efe</id>
+      <masked>false</masked>
+      <name>msisdn</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>be078173-b3a0-42dc-a8a0-18943240bf84</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>deb75133-3b15-4f0e-b3c0-91a7b3c83df5</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b7703a32-8174-44aa-8988-fae760556be0</id>
+      <masked>false</masked>
+      <name>confirmpass</name>
+   </variable>
 </TestCaseEntity>

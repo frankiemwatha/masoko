@@ -22,21 +22,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.masoko.com/')
+WebUI.navigateToUrl(url)
 
 WebUI.click(findTestObject('Registration/Page_Shop Online in Kenya - Pay Con/span_Register'))
 
-WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_firstname'), 'Francis')
+WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_firstname'), fname)
 
-WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_lastname'), 'Masoko')
+WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_lastname'), lname)
 
-WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_mobile'), '+254799320005')
+WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_mobile'), msisdn)
 
-WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_email'), 'masokotests5@safaricom.co.ke')
+WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_email'), email)
 
-WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_password'), '@12Mwatha00-')
+WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_password'), pass)
 
-WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_password_confirmation'), '@12Mwatha00-')
+WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_password_confirmation'), confirmpass)
 
 WebUI.click(findTestObject('Registration/Page_Create New Customer Account/span_Create an Account'))
 //comment
