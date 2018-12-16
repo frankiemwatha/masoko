@@ -22,6 +22,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+//this is a comment
+
 WebUI.navigateToUrl(url)
 
 WebUI.click(findTestObject('Registration/Page_Shop Online in Kenya - Pay Con/span_Register'))
