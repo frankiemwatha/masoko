@@ -24,6 +24,8 @@ import org.openqa.selenium.Keys as Keys
 //this is a comment commented too
 WebUI.openBrowser('')
 
+//some cool stuff here
+
 WebUI.navigateToUrl('https://www.masoko.com/')
 
 WebUI.click(findTestObject('Existing Phone Number/Page_Shop Online in Kenya - Pay Con/span_Register'))
