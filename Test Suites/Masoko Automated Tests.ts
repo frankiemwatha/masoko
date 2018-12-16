@@ -4,7 +4,7 @@
    <name>Masoko Automated Tests</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-16T01:14:35</lastRun>
+   <lastRun>2018-12-16T02:28:57</lastRun>
    <mailRecipient>f12mwatha@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
