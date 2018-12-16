@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-//this is a comment commented too, third comment
+//this is a comment commented too, 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.masoko.com/')
