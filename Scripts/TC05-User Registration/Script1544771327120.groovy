@@ -30,6 +30,8 @@ WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/inpu
 
 WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_lastname'), lname)
 
+
+
 WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_mobile'), msisdn)
 
 WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_email'), email)
