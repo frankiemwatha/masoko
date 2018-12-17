@@ -41,6 +41,8 @@ WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/inpu
 WebUI.click(findTestObject('Registration/Page_Create New Customer Account/span_Create an Account'))
 //comment
 
+//comment
+
 
 
 WebUI.closeBrowser()
