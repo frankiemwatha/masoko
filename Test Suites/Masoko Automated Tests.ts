@@ -23,7 +23,7 @@
       <isRun>false</isRun>
       <testCaseId>Test Cases/TC05-User Registration</testCaseId>
       <testDataLink>
-         <combinationType>MANY</combinationType>
+         <combinationType>ONE</combinationType>
          <id>6a6919a9-a916-473e-beb1-9472743d9b87</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
