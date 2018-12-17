@@ -14,13 +14,13 @@
    <testCaseLink>
       <guid>cb2d41b7-a267-416d-bd06-1c6d411e7b5d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC06-Wrong Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5f0aed22-409c-454e-82d5-7a973506558a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC05-User Registration</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -77,13 +77,13 @@
    <testCaseLink>
       <guid>5785890e-695d-4cd7-921c-9b0af8b033db</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC04-Checkout</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>739befda-ea25-4348-8c03-839c285afbcc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC03-Product Search</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -122,7 +122,7 @@
    <testCaseLink>
       <guid>22aa4087-ea11-4034-b126-2ada99ee777c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/TC01-Existing Phone Number</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
