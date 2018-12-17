@@ -41,7 +41,13 @@ def setUp() {
 
 /*hjuhihhhh
  *no more changes 
+<<<<<<< HEAD
  *more comments
+=======
+ *commentedd again
+ 
+ 
+>>>>>>> c56e209c96d71c5ce543e1348b4a7bbf7ae20f2a
  *
  *
  * 
