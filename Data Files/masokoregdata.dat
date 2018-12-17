@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>testdata-userreg</name>
+   <name>masokoregdata</name>
    <tag></tag>
-   <containsHeaders>false</containsHeaders>
+   <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>c8d3b615-7986-4534-8ff3-982a7e1f4b45</dataFileGUID>
+   <dataFileGUID>23607fad-415a-4aa0-bc86-df16000515e5</dataFileGUID>
    <dataSourceUrl>Data Files/testdata.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>

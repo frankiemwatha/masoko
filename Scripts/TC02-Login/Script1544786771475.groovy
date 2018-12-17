@@ -18,7 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
@@ -33,7 +33,6 @@ WebUI.setText(findTestObject('Login/Page_Customer Login/input_loginpassword'), p
 WebUI.click(findTestObject('Login/Page_Customer Login/button_Sign In'))
 
 WebUI.verifyElementPresent(findTestObject('Login/Page_Shop Online in Kenya - Pay Con/span_Hello Mwatha'), 0)
-
 
 //comment
 //comment
