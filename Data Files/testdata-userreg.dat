@@ -3,10 +3,10 @@
    <description></description>
    <name>testdata-userreg</name>
    <tag></tag>
-   <containsHeaders>true</containsHeaders>
+   <containsHeaders>false</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>c8d3b615-7986-4534-8ff3-982a7e1f4b45</dataFileGUID>
-   <dataSourceUrl>D:\QA PROJECTS\Automation\testdata.xlsx</dataSourceUrl>
+   <dataSourceUrl>Data Files/testdata.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
