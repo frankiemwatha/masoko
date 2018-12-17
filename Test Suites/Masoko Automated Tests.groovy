@@ -33,7 +33,6 @@ import com.kms.katalon.core.annotation.TearDownTestCase
 /**
  * Setup test suite environment.
  *set up
- 
  */
 @SetUp(skipped = true) // Please change skipped to be false to activate this method.
 def setUp() {
