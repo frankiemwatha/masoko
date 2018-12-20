@@ -11,7 +11,7 @@ class d {
 
 	@Keyword
 	def OpenBrowser() {
-		System.setProperty("webdriver.chrome.driver","//usr//local//bin//chromedrive");
+		System.setProperty("webdriver.chrome.driver","//usr//local//bin//chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("–no-sandbox");
 		options.addArguments("–disable-dev-shm-usage");
