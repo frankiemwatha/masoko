@@ -21,8 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
+<<<<<<< HEAD
 //this is a comment commented too, 
 CustomKeywords.'com.masoko.d.OpenBrowser'()
+=======
+//this is a comment
+WebUI.openBrowser('')
+>>>>>>> 6c349be2fdc75db2cbb5efce1a5ac4c5578b7520
+
+//this is a comment hhh
 
 WebUI.navigateToUrl('https://www.masoko.com/')
 
