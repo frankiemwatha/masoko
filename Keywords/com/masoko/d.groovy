@@ -6,7 +6,6 @@ import com.sun.org.apache.xpath.internal.operations.String
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
-//commemt
 
 class d {
 
