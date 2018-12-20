@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Masoko Automated Tests,,,2018-12-20 12:19:17,2018-12-20 12:19:18,1.180s,ERROR
+,,,,,,
+Test Cases/TC02-Login,,,2018-12-20 12:19:17,2018-12-20 12:19:18,0.745s,ERROR
+"com.masoko.d.OpenBrowser("""")",,,2018-12-20 12:19:18,2018-12-20 12:19:18,0.131s,ERROR

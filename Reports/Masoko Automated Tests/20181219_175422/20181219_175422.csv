@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Masoko Automated Tests,,,2018-12-19 17:54:34,2018-12-19 17:54:35,1.429s,ERROR
+,,,,,,
+Test Cases/TC02-Login,,,2018-12-19 17:54:34,2018-12-19 17:54:35,0.708s,ERROR
+"Statement - Fungua.OpenBrowser("""")",,,2018-12-19 17:54:35,2018-12-19 17:54:35,0.003s,PASSED

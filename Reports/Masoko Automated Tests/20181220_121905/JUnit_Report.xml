@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Masoko Automated Tests" time="1" tests="0" failures="0" errors="1">
+   <testsuite name="Masoko Automated Tests" tests="0" failures="0" errors="1" time="1" timestamp="2018-12-20 12:19:17" hostname="FMBUGUA1 - LTTECH1950.safaricom.net" id="Test Suites/Masoko Automated Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\fmbugua1\\Desktop\\Folder\\test\\masoko\\Reports\\Masoko Automated Tests\\20181220_121905"/>
+         <property name="logFiles" value="C:\\Users\\fmbugua1\\Desktop\\Folder\\test\\masoko\\Reports\\Masoko Automated Tests\\20181220_121905\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="FMBUGUA1 - LTTECH1950.safaricom.net"/>
+         <property name="hostAddress" value="169.254.12.217"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+      </properties>
+      <testcase name="Test Cases/TC02-Login" classname="Test Cases/TC02-Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC02-Login FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.OpenBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: OpenBrowser(com.sun.org.apache.xpath.internal.operations.String)
+"/>
+         <system-out><![CDATA[2018-12-20 12:19:17 - [TEST_CASE][ERROR] - Test Cases/TC02-Login: Test Cases/TC02-Login FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.OpenBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: OpenBrowser(com.sun.org.apache.xpath.internal.operations.String)
+
+
+2018-12-20 12:19:18 - [TEST_STEP][ERROR] - com.masoko.d.OpenBrowser(""): com.masoko.d.OpenBrowser("") FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.OpenBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: OpenBrowser(com.sun.org.apache.xpath.internal.operations.String)
+
+
+2018-12-20 12:19:18 - [MESSAGE][ERROR] - No signature of method: com.masoko.d.OpenBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: OpenBrowser(com.sun.org.apache.xpath.internal.operations.String)
+
+2018-12-20 12:19:18 - [MESSAGE][ERROR] - com.masoko.d.OpenBrowser("") FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.OpenBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: OpenBrowser(com.sun.org.apache.xpath.internal.operations.String)]]></system-out>
+         <system-err><![CDATA[2018-12-20 12:19:17 - [TEST_CASE][ERROR] - Test Cases/TC02-Login: Test Cases/TC02-Login FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.OpenBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: OpenBrowser(com.sun.org.apache.xpath.internal.operations.String)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-20 12:19:17 - [TEST_SUITE][ERROR] - Masoko Automated Tests: Test Cases/TC02-Login FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.OpenBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: OpenBrowser(com.sun.org.apache.xpath.internal.operations.String)]]></system-out>
+      <system-err><![CDATA[2018-12-20 12:19:17 - [TEST_SUITE][ERROR] - Masoko Automated Tests: Test Cases/TC02-Login FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.OpenBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: OpenBrowser(com.sun.org.apache.xpath.internal.operations.String)]]></system-err>
+   </testsuite>
+</testsuites>

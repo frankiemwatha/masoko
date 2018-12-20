@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Masoko Automated Tests" time="42" tests="1" failures="0" errors="0">
+   <testsuite name="Masoko Automated Tests" tests="1" failures="0" errors="0" time="42" timestamp="2018-12-20 12:35:39" hostname="FMBUGUA1 - LTTECH1950.safaricom.net" id="Test Suites/Masoko Automated Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\fmbugua1\\Desktop\\Folder\\test\\masoko\\Reports\\Masoko Automated Tests\\20181220_123527"/>
+         <property name="logFiles" value="C:\\Users\\fmbugua1\\Desktop\\Folder\\test\\masoko\\Reports\\Masoko Automated Tests\\20181220_123527\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="FMBUGUA1 - LTTECH1950.safaricom.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="169.254.12.217"/>
+         <property name="sessionId" value="9a7afc9ae281b020df5cc0efc6b44e75"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC02-Login" classname="Test Cases/TC02-Login" status="PASSED">
+         <system-out><![CDATA[2018-12-20 12:35:40 - [TEST_CASE][PASSED] - Test Cases/TC02-Login: Test Cases/TC02-Login
+
+2018-12-20 12:35:40 - [TEST_STEP][PASSED] - com.masoko.d.OpenBrowser(): com.masoko.d.OpenBrowser is PASSED
+
+2018-12-20 12:35:45 - [MESSAGE][PASSED] - com.masoko.d.OpenBrowser is PASSED
+
+2018-12-20 12:35:45 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'http://www.masoko.com' successfully
+
+2018-12-20 12:35:58 - [MESSAGE][PASSED] - Navigate to 'http://www.masoko.com' successfully
+
+2018-12-20 12:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Shop Online in Kenya - Pay Con/p_Sign In")): Object: 'Object Repository/Login/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-20 12:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Shop Online in Kenya - Pay Con/p_Sign In' is clicked on
+
+2018-12-20 12:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_Customer Login/input_loginusername"), email_address): Text 'mwathambugua@gmail.com' is set on object 'Object Repository/Login/Page_Customer Login/input_loginusername'
+
+2018-12-20 12:36:14 - [MESSAGE][PASSED] - Text 'mwathambugua@gmail.com' is set on object 'Object Repository/Login/Page_Customer Login/input_loginusername'
+
+2018-12-20 12:36:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Page_Customer Login/input_loginpassword"), password): Text '@12Becky00-' is set on object 'Object Repository/Login/Page_Customer Login/input_loginpassword'
+
+2018-12-20 12:36:14 - [MESSAGE][PASSED] - Text '@12Becky00-' is set on object 'Object Repository/Login/Page_Customer Login/input_loginpassword'
+
+2018-12-20 12:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Login/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-20 12:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Customer Login/button_Sign In' is clicked on
+
+2018-12-20 12:36:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Page_Shop Online in Kenya - Pay Con/span_Hello Mwatha"), 0): Object 'Object Repository/Login/Page_Shop Online in Kenya - Pay Con/span_Hello Mwatha' is present
+
+2018-12-20 12:36:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-12-20 12:36:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_Shop Online in Kenya - Pay Con/span_Hello Mwatha' is present
+
+2018-12-20 12:36:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-20 12:36:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-20 12:35:39 - [TEST_SUITE][PASSED] - Masoko Automated Tests: Test Cases/TC02-Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

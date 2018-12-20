@@ -4,7 +4,7 @@
    <name>Masoko Automated Tests</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-17T13:15:04</lastRun>
+   <lastRun>2018-12-20T12:35:27</lastRun>
    <mailRecipient>f12mwatha@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>cb2d41b7-a267-416d-bd06-1c6d411e7b5d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC06-Wrong Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -77,19 +77,19 @@
    <testCaseLink>
       <guid>5785890e-695d-4cd7-921c-9b0af8b033db</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC04-Checkout</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>739befda-ea25-4348-8c03-839c285afbcc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC03-Product Search</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f88e00aa-b33b-4d93-b816-21b0c09d6b69</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC02-Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -122,7 +122,7 @@
    <testCaseLink>
       <guid>22aa4087-ea11-4034-b126-2ada99ee777c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TC01-Existing Phone Number</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Masoko Automated Tests" time="1" tests="0" failures="0" errors="1">
+   <testsuite name="Masoko Automated Tests" tests="0" failures="0" errors="1" time="1" timestamp="2018-12-20 12:22:07" hostname="FMBUGUA1 - LTTECH1950.safaricom.net" id="Test Suites/Masoko Automated Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\fmbugua1\\Desktop\\Folder\\test\\masoko\\Reports\\Masoko Automated Tests\\20181220_122155"/>
+         <property name="logFiles" value="C:\\Users\\fmbugua1\\Desktop\\Folder\\test\\masoko\\Reports\\Masoko Automated Tests\\20181220_122155\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="FMBUGUA1 - LTTECH1950.safaricom.net"/>
+         <property name="hostAddress" value="169.254.12.217"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+      </properties>
+      <testcase name="Test Cases/TC02-Login" classname="Test Cases/TC02-Login" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC02-Login FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\fmbugua1\Desktop\Folder\test\masoko
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:157)
+	at com.masoko.d.OpenBrowser(d.groovy:20)
+	at com.masoko.d.invokeMethod(d.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC02-Login.run(TC02-Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545297724680.run(TempTestSuite1545297724680.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-20 12:22:08 - [TEST_CASE][ERROR] - Test Cases/TC02-Login: Test Cases/TC02-Login FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\fmbugua1\Desktop\Folder\test\masoko
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.masoko.d.OpenBrowser(d.groovy:20)
+	at com.masoko.d.invokeMethod(d.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC02-Login.run(TC02-Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545297724680.run(TempTestSuite1545297724680.groovy:36)
+
+
+2018-12-20 12:22:08 - [TEST_STEP][ERROR] - com.masoko.d.OpenBrowser(): com.masoko.d.OpenBrowser() FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\fmbugua1\Desktop\Folder\test\masoko
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.masoko.d.OpenBrowser(d.groovy:20)
+	at com.masoko.d.invokeMethod(d.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC02-Login.run(TC02-Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545297724680.run(TempTestSuite1545297724680.groovy:36)
+
+
+2018-12-20 12:22:09 - [MESSAGE][ERROR] - The driver executable does not exist: C:\Users\fmbugua1\Desktop\Folder\test\masoko
+
+2018-12-20 12:22:09 - [MESSAGE][ERROR] - com.masoko.d.OpenBrowser() FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\fmbugua1\Desktop\Folder\test\masoko
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.masoko.d.OpenBrowser(d.groovy:20)
+	at com.masoko.d.invokeMethod(d.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC02-Login.run(TC02-Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545297724680.run(TempTestSuite1545297724680.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-20 12:22:08 - [TEST_CASE][ERROR] - Test Cases/TC02-Login: Test Cases/TC02-Login FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\fmbugua1\Desktop\Folder\test\masoko
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.masoko.d.OpenBrowser(d.groovy:20)
+	at com.masoko.d.invokeMethod(d.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC02-Login.run(TC02-Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545297724680.run(TempTestSuite1545297724680.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-20 12:22:07 - [TEST_SUITE][ERROR] - Masoko Automated Tests: Test Cases/TC02-Login FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\fmbugua1\Desktop\Folder\test\masoko
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.masoko.d.OpenBrowser(d.groovy:20)
+	at com.masoko.d.invokeMethod(d.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC02-Login.run(TC02-Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545297724680.run(TempTestSuite1545297724680.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-20 12:22:07 - [TEST_SUITE][ERROR] - Masoko Automated Tests: Test Cases/TC02-Login FAILED.
+Reason:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\fmbugua1\Desktop\Folder\test\masoko
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.masoko.d.OpenBrowser(d.groovy:20)
+	at com.masoko.d.invokeMethod(d.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at TC02-Login.run(TC02-Login:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1545297724680.run(TempTestSuite1545297724680.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

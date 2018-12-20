@@ -19,10 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //this is a comment commented too, 
-WebUI.openBrowser('')
+CustomKeywords.'com.masoko.d.OpenBrowser'()
 
 WebUI.navigateToUrl('https://www.masoko.com/')
 
@@ -49,3 +49,4 @@ WebUI.verifyElementPresent(findTestObject('Existing Phone Number/Page_Create New
 
 //comment
 WebUI.closeBrowser()
+

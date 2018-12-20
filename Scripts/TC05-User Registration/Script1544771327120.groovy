@@ -20,9 +20,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 //this is a comment
+
+CustomKeywords.'com.masoko.d.OpenBrowser'()
 
 WebUI.navigateToUrl(url)
 
@@ -41,11 +41,6 @@ WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/inpu
 WebUI.setText(findTestObject('Registration/Page_Create New Customer Account/input_password_confirmation'), confirmpass)
 
 WebUI.click(findTestObject('Registration/Page_Create New Customer Account/span_Create an Account'))
-//comment
-
-//comment
-
-
 
 WebUI.closeBrowser()
 

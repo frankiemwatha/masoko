@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+CustomKeywords.'com.masoko.d.OpenBrowser'()
 
 WebUI.navigateToUrl('https://www.masoko.com/')
 

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-12-20T12:08:11</date>
+  <millis>1545296891275</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Masoko Automated Tests</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Masoko Automated Tests</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Masoko Automated Tests</property>
+</record>
+<record>
+  <date>2018-12-20T12:08:11</date>
+  <millis>1545296891297</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = FMBUGUA1 - LTTECH1950.safaricom.net</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">FMBUGUA1 - LTTECH1950.safaricom.net</property>
+</record>
+<record>
+  <date>2018-12-20T12:08:11</date>
+  <millis>1545296891298</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-12-20T12:08:11</date>
+  <millis>1545296891299</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 169.254.12.217</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">169.254.12.217</property>
+</record>
+<record>
+  <date>2018-12-20T12:08:11</date>
+  <millis>1545296891300</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.9.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.9.1.2</property>
+</record>
+<record>
+  <date>2018-12-20T12:08:11</date>
+  <millis>1545296891701</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC02-Login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC02-Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC02-Login</property>
+  <property name="source">C:\\Users\\fmbugua1\\Desktop\\Folder\\test\\masoko\\Test Cases\\TC02-Login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-12-20T12:08:11</date>
+  <millis>1545296891747</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>url = www.masoko.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-20T12:08:11</date>
+  <millis>1545296891749</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>email_address = mwathambugua@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-20T12:08:11</date>
+  <millis>1545296891749</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = @12Becky00-</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-20T12:08:12</date>
+  <millis>1545296892307</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : com.masoko.d.Fungua(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-12-20T12:08:12</date>
+  <millis>1545296892360</millis>
+  <sequence>11</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>No signature of method: com.masoko.d.Fungua() is applicable for argument types: (java.lang.String) values: []\nPossible solutions: find()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-20T12:08:12</date>
+  <millis>1545296892486</millis>
+  <sequence>13</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>com.masoko.d.Fungua(\&amp;quot;\&amp;quot;) FAILED.\nReason:\norg.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.Fungua() is applicable for argument types: (java.lang.String) values: []\nPossible solutions: find()\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.Fungua() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: find()</message>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-12-20T12:08:12</date>
+  <millis>1545296892489</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : com.masoko.d.Fungua(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-20T12:08:12</date>
+  <millis>1545296892490</millis>
+  <sequence>16</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC02-Login FAILED.\nReason:\norg.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.Fungua() is applicable for argument types: (java.lang.String) values: []\nPossible solutions: find()\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.masoko.d.Fungua() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: find()</message>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-12-20T12:08:12</date>
+  <millis>1545296892496</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC02-Login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-12-20T12:08:12</date>
+  <millis>1545296892592</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Masoko Automated Tests</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
